@@ -1,0 +1,89 @@
+.editorTools {
+  border-left: 1px solid black;
+  min-height: 100vh;
+  width: 300px;
+  background: rgb(50, 50, 50);
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.edit-btn {
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  width: 50%;
+  height: 40px;
+  color: white;
+  background: rgb(15, 15, 15);
+}
+
+.text-inputs p {
+  text-align: center;
+  color: white;
+}
+
+.txt {
+  height: 20px;
+  padding: 5px;
+}
+
+.txt:focus {
+  outline: none;
+}
+
+.text-fields {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 2.5em;
+  margin-bottom: 5px;
+  border-bottom: 2px solid black;
+}
+
+.text-fields h2 {
+  text-align: center;
+}
+
+.text-selector {
+  display: flex;
+  width: 95%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text-selector h2 {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  letter-spacing: 1.25px;
+  cursor: pointer;
+}
+
+h2.active {
+  color: black;
+  font-weight: 900;
+}
+.download-btn {
+  width: 50%;
+  height: 50px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  outline: none;
+  border: none;
+  color: white;
+  background: rgb(15, 15, 15);
+  border-radius: 15px;
+  cursor: pointer;
+}

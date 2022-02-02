@@ -1,0 +1,45 @@
+body {
+  background: rgb(50, 50, 50);
+}
+
+.main-screen {
+  background: rgb(50, 50, 50);
+  min-height: 100vh;
+  width: calc(100% - 600px);
+  position: relative;
+  right: -300px;
+  left: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-editor {
+  position: absolute;
+  width: 900px;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.draggable-text {
+  font-size: 40px;
+  position: absolute;
+  width: 50%;
+  height: 100px;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  overflow-wrap: break-word;
+  color: black;
+  letter-spacing: 1px;
+}
+
+.main-screen img {
+  width: 750px;
+  height: 750px;
+}
